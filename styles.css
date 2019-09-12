@@ -1,0 +1,52 @@
+
+
+div{
+    height: 100px;
+    width: 100px;
+    display: block;
+    background-color: aqua;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    border-radius: .5em;
+    margin: auto;
+    margin-bottom: 20px;
+    transition: transform 1s;
+}
+
+div:hover {
+	transform: rotate(45deg);
+}
+
+
+#top{
+    transform-origin: top;
+}
+
+#right{
+    transform-origin: right;
+}
+
+#bottom{
+    transform-origin: bottom;
+}
+
+#left{
+    transform-origin: left;
+}
+
+#top-right{
+    transform-origin: top right;
+}
+
+#bottom-right{
+    transform-origin: bottom right;
+}
+
+#top-left{
+    transform-origin: top left;
+}
+
+#bottom-left{
+    transform-origin: bottom left;
+}
